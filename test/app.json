@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "android": {
+      "package": "com.myproject.example",
+      "versionCode": "11"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "PROJECT_ID"
+      }
+    },
+    "icon": "./assets/icon.png",
+    "ios": {
+      "buildNumber": "11",
+      "bundleIdentifier": "com.myproject.example",
+      "supportsTablet": true
+    },
+    "name": "test",
+    "orientation": "portrait",
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "newArchEnabled": true
+          },
+          "ios": {
+            "newArchEnabled": true
+          }
+        }
+      ]
+    ],
+    "slug": "example",
+    "splash": {
+      "backgroundColor": "#ffffff",
+      "image": "./assets/splash.png",
+      "resizeMode": "contain"
+    },
+    "userInterfaceStyle": "light",
+    "version": "1.0.0",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
